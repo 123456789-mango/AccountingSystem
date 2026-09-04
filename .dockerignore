@@ -1,0 +1,36 @@
+# Build outputs
+**/bin/
+**/obj/
+
+# IDE / editor folders
+.vs/
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# Docs (not needed inside the image)
+README.md
+
+# Frontend project — not part of the API image
+src/WebApp/
+
+# Local dev config / secrets (never bake these into the image)
+**/appsettings.Development.json
+**/appsettings.Local.json
+*.user
+.env
+.env.*
+
+# Database project scripts (only needed if your API doesn't run migrations from here)
+database/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Docker files themselves
+Dockerfile
+.dockerignore
