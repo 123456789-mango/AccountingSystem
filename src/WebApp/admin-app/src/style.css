@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f5f6f8; }
+main { max-width: 950px; margin: 30px auto; background: #fff; padding: 24px; border-radius: 8px; }
+input, select, button { padding: 9px; margin: 4px; }
+section { margin-top: 25px; padding-top: 15px; border-top: 1px solid #ddd; }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
