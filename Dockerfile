@@ -12,7 +12,7 @@ COPY src/AccountingSystem.Application/*.csproj src/AccountingSystem.Application/
 COPY src/AccountingSystem.Domain/*.csproj src/AccountingSystem.Domain/
 COPY src/AccountingSystem.Infrastructure.SQLRepo/*.csproj src/AccountingSystem.Infrastructure.SQLRepo/
 
-RUN dotnet restore AccountingSystem.sln
+RUN dotnet restore src/AccountingSystem.Api/AccountingSystem.Api.csproj
 
 # Copy the rest of the source and publish just the API project
 COPY . ./
