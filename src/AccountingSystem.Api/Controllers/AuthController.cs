@@ -15,7 +15,7 @@ public class AuthController : ControllerBase
         _userService = userService;
     }
 
-    [HttpPost("login")]
+    [HttpPost]
     public async Task<IActionResult> Login(UserLoginVM vm)
     {
         var user =
